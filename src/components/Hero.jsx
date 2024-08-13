@@ -1,10 +1,12 @@
 import React from 'react'
+import imgg from '../img/Ads 1.png'
+import imgf from '../img/Ads 2.png'
 
 const Hero = () => {
   return (
     <div className='flex justify-around mt-4'>
-        <img src="./src/img/Ads 1.png" alt="" />
-        <img src="./src/img/Ads 2.png" alt="" />
+        <img src={imgg} alt="" />
+        <img src={imgf} alt="" />
     </div>
   )
 }

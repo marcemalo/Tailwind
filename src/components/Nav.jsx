@@ -1,5 +1,7 @@
 import { Layout, Menu, Input} from 'antd';
 import { NavLink } from 'react-router-dom';
+import Image from '../img/Logo.svg'
+import Image2 from '../img/Profil & Notification.svg'
 
 const { Header } = Layout;
 const { Search } = Input;
@@ -7,7 +9,7 @@ const { Search } = Input;
 const navLinks = [
     {
         key: "1",
-        label: <NavLink end to="/"><img src="./src/img/Profil & Notification.svg" alt="" /></NavLink>
+        label: <NavLink end to="/"><img src={Image2} alt="" /></NavLink>
     },
    
     
@@ -20,7 +22,7 @@ const Nav = () => {
     return (
         <Header className='px-2 bg-slate-200  pt-2'>
            <div className='flex justify-around items-center'>
-           <img src="./src/img/Logo.svg" alt="#" />
+           <img src={Image} alt="#" />
            <Search placeholder="input search text" className='max-w-[400px]' onSearch={onSearch} enterButton />
             <Menu
                 theme="dangerous"

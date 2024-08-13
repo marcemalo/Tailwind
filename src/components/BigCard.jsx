@@ -1,6 +1,8 @@
-
 import { Avatar, Card, Button } from 'antd';
 const { Meta } = Card;
+import joki from '../img/car.svg'
+import jokii from '../img/car.png'
+
 
 const BigCard = () => {
   return (
@@ -13,7 +15,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car.svg"
+        src={joki}
       />
     }
     actions={[
@@ -36,7 +38,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (1).svg"
+        src={joki}
       />
     }
     actions={[
@@ -59,7 +61,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car.png"
+        src={jokii}
       />
     }
     actions={[
@@ -82,7 +84,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (1).png"
+        src={jokii}
       />
     }
     actions={[
