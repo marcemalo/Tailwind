@@ -1,7 +1,7 @@
 import { Avatar, Card, Button } from 'antd';
 const { Meta } = Card;
 import joki from '../img/car.svg'
-import jokii from '../img/car.png'
+import jokii from '../img/Car.png'
 
 
 const BigCard = () => {
@@ -98,7 +98,6 @@ const BigCard = () => {
     />
   </Card>
     </div>
-
 
 
 
