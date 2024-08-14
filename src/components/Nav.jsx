@@ -22,7 +22,7 @@ const Nav = () => {
     return (
         <Header className='px-2 bg-slate-200  pt-2'>
            <div className='flex justify-around items-center'>
-           <img src={Image} alt="#" />
+           <img src={Image} alt="" />
            <Search placeholder="input search text" className='max-w-[400px]' onSearch={onSearch} enterButton />
             <Menu
                 theme="dangerous"
