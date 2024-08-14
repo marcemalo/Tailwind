@@ -1,7 +1,7 @@
 import { Layout, Menu, Input} from 'antd';
 import { NavLink } from 'react-router-dom';
-import Image from '../img/Logo.svg'
-import Image2 from '../img/Profil & Notification.svg'
+import Image from './src/img/Logo.svg'
+import Image2 from '.src/img/Profil & Notification.svg'
 
 const { Header } = Layout;
 const { Search } = Input;

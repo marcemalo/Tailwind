@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from '../img/Logo.svg'
+import { Imag } from './src/img/Logo.svg'
 
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-slate-200 text-black py-10 mt-6">
     <div className="container mx-auto px-6 flex flex-wrap justify-between">
     <div className='max-w-[250px]'>
-            <img src={Image} alt="" />
+            <img src={Imag} alt="" />
             <p className='mt-4'>Our vision is to provide convenience and help increase your sales business.</p>
     </div>
       <div className="w-full md:w-1/4 mb-6 md:mb-0">
