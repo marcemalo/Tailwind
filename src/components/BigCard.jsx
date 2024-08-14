@@ -99,6 +99,9 @@ const BigCard = () => {
   </Card>
     </div>
 
+
+
+
     <div className='mt-6'>
     <Card className='border-[4px]'
     style={{
@@ -107,7 +110,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (2).png"
+        src={joki}
       />
     }
     actions={[
@@ -130,7 +133,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (3).png"
+        src={jokii}
       />
     }
     actions={[
@@ -153,7 +156,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (4).png"
+        src={joki}
       />
     }
     actions={[
@@ -176,7 +179,7 @@ const BigCard = () => {
     cover={
       <img className='p-10'
         alt="example"
-        src="./src/img/car (2).png"
+        src={jokii}
       />
     }
     actions={[
