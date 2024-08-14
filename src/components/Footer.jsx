@@ -1,5 +1,5 @@
 import React from 'react'
-import { Imag } from './src/img/Logo.svg'
+import  Imag  from '.././img/Logo.svg'
 
 
 const Footer = () => {
